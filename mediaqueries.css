@@ -1,0 +1,10 @@
+@media screen and (max-width: 1200px) {
+    #dekstop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+/* Kode diatas untuk menghilangkan navigation dekstop ketika mode mobile */
