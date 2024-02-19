@@ -324,6 +324,10 @@ section {
     margin: auto 0;
 }
 
+.paragraph{
+    text-align: justify;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
