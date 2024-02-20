@@ -229,6 +229,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-top: 12px;
 }
 
 .btn {
@@ -339,6 +340,7 @@ section {
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    height: 12vh;
 }
 
 .experience-details-container {
@@ -371,6 +373,7 @@ article .icon {
 
 #projects {
     position: relative;
+    height: 147vh;
 }
 
 .color-container {
@@ -393,6 +396,18 @@ article .icon {
     color: black;
     border-color: rgb(163, 163, 163);
 }
+
+.details-container-hidden {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    visibility: hidden;
+}
+
 
 /* CONTACT */
 
@@ -444,3 +459,85 @@ footer {
 footer p {
     text-align: center;
 }
+
+
+/* Video */
+
+.demo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.demo.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.demo video {
+    position: relative;
+    max-width: 900px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+}
+
+/* video2 */
+/* 
+.demo2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.demo2.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.demo2 video {
+    position: relative;
+    max-width: 900px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.close2 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+} */
+

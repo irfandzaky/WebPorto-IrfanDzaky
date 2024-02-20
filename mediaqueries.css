@@ -102,3 +102,9 @@
     }
   }
 /* Kode diatas untuk menghilangkan navigation desktop-nav ketika mode mobile */
+
+@media (max-width: 991px){
+  .demo video{
+    max-width: 90%;
+  }
+}
